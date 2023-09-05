@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header li {
+    list-style: none;
+}
+
+/*
+    Link: the style of the links.
+    Visited: the style when the user clicked the link and returns to the page.
+*/
+
+a:link, a:visited {
+    text-decoration: none;
+    background-color: goldenrod;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: aliceblue;
+
+    display: block;
+    text-align: center;
+    margin: 5px;
+
+    width: 15%;
+}
+
+/*
+    Hover: when user pass the mouse on the element.
+    Active: when user clicks on the element but doesn't released it yet.
+*/
+a:hover, a:active {
+    background-color: aliceblue;
+    color: goldenrod;
+    cursor: pointer;
+}
+
+header li:nth-child(2) {
+    font-weight: bold;
+}
+
+section div:nth-child(odd) {
+    background-color: goldenrod;
+    color: aliceblue;
+}
+
+section div:nth-child(odd):hover {
+    background-color: aliceblue;
+    color: goldenrod;
+    cursor: pointer;
+}
