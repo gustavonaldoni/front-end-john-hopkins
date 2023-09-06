@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#background {
+    width: 30em;
+    height: 30em;
+
+    background-image: url("aristotle.webp");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
