@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    background-color: rgb(209, 191, 226);
+}
+
+p {
+    width: 5em;
+    height: 5em;
+    border: 1px solid black;
+}
+
+#p1 {
+    background-color: chartreuse;
+    float: left;
+    height: 30em;
+}
+
+#p2 {
+    background-color: rgb(81, 137, 26);
+    float: right;
+    height: 20em;
+}
+
+#p3 {
+    background-color: rgb(32, 119, 176);
+    clear: both;
+}
+
+#p4 {
+    background-color: rgb(155, 27, 104);
+}
+
+section {
+    clear: left; /* Forbid the browser to position a float element to the left of it. */
+}

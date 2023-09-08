@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    background-color: aqua;
+}
+
+p {
+    width: 50%;
+    border: 1px solid black;
+    float: left;
+    padding: 1em;
+}
+
+#p1 {
+    background-color: bisque;
+}
+
+#p2 {
+    background-color: coral;
+}
+
+section {
+    clear: left;
+}

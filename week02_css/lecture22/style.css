@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom: 2em;
+}
+
+div#container {
+    background-color: aqua;
+    
+    position: relative;
+    top: 5em;
+}
+
+p {
+    width: 5em;
+    height: 5em;
+    border: 1px solid black;
+    color: whitesmoke;
+    margin-bottom: 1em;
+
+    text-align: center;
+    font-size: larger;
+}
+
+#p1 {
+    background-color: brown;
+
+    position: relative;
+    top: 6em; /* FROM the top */
+    left: 6em; /* FROM the left */
+}
+
+#p2 {
+    background-color: rgb(103, 181, 91);
+}
+
+#p3 {
+    background-color: rgb(65, 166, 184);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#p4 {
+    background-color: rgb(64, 14, 156);
+}

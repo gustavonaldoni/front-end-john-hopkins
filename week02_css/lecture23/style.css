@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BASE STYLES */
+
+h1 {
+    margin: 2em;
+}
+
+p {
+    border: 1px solid black;
+    margin-bottom: 2em;
+}
+
+#p1 {
+    background-color: aqua;
+    width: 20em;
+    height: 20em;
+}
+
+#p2 {
+    background-color: chocolate;
+    width: 10em;
+    height: 10em;
+}
+
+/* LARGE DEVICES ONLY */
+
+@media (min-width: 1200px) {
+    #p1 {
+        width: 80%;
+    }
+
+    #p2 {
+        width: 20em;
+        height: 20em;
+    }
+}
+
+/* MEDIUM DEVICES ONLY */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #p1 {
+        width: 50%;
+    }
+
+    #p2 {
+        width: 15em;
+        height: 15em;
+    }
+}
+
