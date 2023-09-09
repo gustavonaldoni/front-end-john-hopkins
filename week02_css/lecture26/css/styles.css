@@ -1,0 +1,8 @@
+.row {
+    margin-bottom: 3em;
+}
+
+.row > div {
+    background-color: burlywood;
+    text-align: center;
+}
